@@ -1,0 +1,115 @@
+
+.display-flex
+{
+    display: flex;
+    
+}
+.justify-content-space-between
+{
+    justify-content: space-evenly;
+
+}
+.justify-content-center{
+    justify-content: space-around;
+
+}
+.align-item-center
+{
+    align-items: center;
+
+}
+.overflow-hidden
+{
+    overflow: hidden;
+}
+.text-color-444
+{
+    color: #444   ;
+}
+/* Tạo hiệu ứng thay đổi màu */
+@keyframes colorChange {
+    0% {
+      color: red;
+    }
+    25% {
+      color: yellow;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: blue;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  /* Áp dụng animation vào phần tử */
+  .animated-bg {
+    width: 200px;
+    height: 200px;
+    animation: colorChange 2s infinite;
+  }
+  .nice-color
+  {
+    color: #07a;
+    text-decoration: underline;
+  }
+  span.foufoufou:before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-left: .2em;
+    margin-right: .2em;
+    background-color: #444;
+}
+span.foufoufou
+{
+    color: #444;
+    font-weight: 700;
+}
+blockquote:before {
+    font-family: Times New Roman, Times, Arial;
+    color: #666;
+    content: open-quote;
+    font-size: 2.2em;
+    font-weight: 600;
+    float: left;
+    margin-top: 0;
+    margin-right: .2rem;
+    width: 1.2rem;
+}
+blockquote author:before {
+    content: "- ";
+    margin-right: 1em;
+}
+blockquote author {
+    display: block;
+    clear: both;
+    font-size: .6em;
+    margin-left: 2.4rem;
+    font-style: oblique;
+}
+blockquote span {
+    float: left;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
+#invmode {
+    color: #fff;
+    background-color: #000;
+    position: fixed;
+    top: 30px;
+    right:0px;
+    text-decoration: underline;
+}
+#contrast {
+    color: #000;
+    background-color:#fff;
+    position: fixed;
+    top: 8px;
+    right:0px;
+    text-decoration: underline;
+}

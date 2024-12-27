@@ -1,0 +1,548 @@
+body {
+    background: #2f3238;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1em;
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+.grid
+{
+    position: relative;
+    margin: auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+.first {
+    clear: both;
+    margin: 0;
+    padding: 4em 1% 0;
+    color: #484B54;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+/* SECTION 1 (LILY) */
+.grid .Lily {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+} 
+.grid .Lily figcaption{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+.grid .Lily div
+{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 50%;
+}
+.grid .Lily h2
+{
+    margin: 0;
+    font-weight: 300;
+    word-spacing: -0.15em;
+    transform: translateY(0px); 
+    transition: transform 0.3s ease;
+}
+.grid .Lily p
+{
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 68.5%;
+    opacity: 0;
+    transform: translateY(0px); 
+    transition: transform 0.45s ease;
+}
+.grid .Lily:hover{
+    background: transparent;
+
+}
+.grid .Lily:hover p
+{
+
+    opacity: 1;
+    transform: translateY(-20px);
+}
+.grid .Lily:hover h2 
+{
+    transform: translateY(-20px);
+}
+.Lily img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+    transform: scale(1.1) translateX(20px);
+}
+
+.Lily:hover img
+{
+    transform:scale(1.1) translateX(0px);
+}
+
+/* SECTION 2 (LAYLA) */
+.grid .Layla {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    background: #18a367;
+    text-align: center;
+    cursor: pointer;
+} 
+.grid .Layla figcaption{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+.grid .Layla div
+{
+    margin-bottom: 6em;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 1.5em;
+    width: 100%;
+    height: 50%;
+}
+.grid .Layla h2
+{
+    margin-bottom: 1em;
+    font-weight: 300;
+    word-spacing: -0.15em;
+    transform: translateY(0px); 
+    transition: transform 0.3s ease;
+}
+.grid .Layla p
+{
+    padding: 0.5em 2em;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 68.5%;
+    opacity: 0;
+    transition: opacity 0.45s;
+}
+.grid .Layla:hover{
+    background: #18a400;
+
+}
+.grid .Layla:hover p
+{
+    opacity: 1;
+}
+.grid .Layla:hover h2 
+{
+    transform: translateY(30px);
+}
+.Layla img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+    transform: scale(1.1) translateY(-15px);
+}
+
+.Layla:hover img
+{
+    transform:scale(1.1) translateX(0px);
+}
+.grid .Layla figcaption::before{
+    
+    position: absolute;
+    content: '';
+    top: 50px;
+    right: 30px;
+    bottom: 50px;
+    left: 30px;
+    width: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    /* border-left: 1px solid #fff;
+    border-right: 1px solid #fff; */
+    opacity:0 
+}
+.grid .Layla figcaption::after{
+    
+    position: absolute;
+    content: '';
+    top: 30px;
+    right: 50px;
+    bottom: 30px;
+    left: 50px;
+    height: 0;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    opacity:0 
+}
+.grid .Layla figcaption:hover::after{
+    opacity: 1;
+    height: 85%;
+    transition:height 0.5s ease;
+}
+.grid .Layla figcaption:hover::before{
+    opacity: 1;
+    width: 88%;
+    transition:width 0.5s ease;
+}
+
+/* SECTION3 (ZOE) */
+.grid .Zoe {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 307px;
+    width: 48%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+} 
+.grid .Zoe figcaption{
+    top: auto;
+    bottom: 0;
+    padding: 1em;
+    height: 3.75em;
+    background: #fff;
+    color: #3c4a50;
+    transform: translateY(-40px);
+    opacity: 0;
+}
+.grid .Zoe:hover figcaption
+{
+    opacity: 1;
+    transform:  translateY(-140px);
+    transition: transform 0.35s;
+}
+
+.grid .Zoe p {
+    position: absolute;
+    bottom: 8em;
+    padding: 2em;
+    padding-bottom: 0em;
+    color: #fff;
+    text-transform: none;
+    font-size: 120%;
+    transition: opacity 0.35s;
+}
+.grid .Zoe h2 {
+    margin: 0;
+    font-weight: 300;
+    word-spacing: -0.15em;
+    background-color: #fff;
+    color: #3c4a50;
+    float: left;
+    padding-top: 20px;
+    text-transform:uppercase ;
+}
+
+.grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+.item
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 17px;
+    transform: translateY(17px);
+}
+
+.item span
+{
+    padding: 10px;
+}
+.clip
+{
+    transform: translateY(17px);
+}
+.eye
+{
+    transform: translateY(17px);
+}
+.heart
+{
+    transform: translateY(17px);
+}
+.grid .Zoe:hover .clip
+{
+    transform: translateY(-17px);
+    transition: transform 0.35s ease;
+}
+.grid .Zoe:hover .eye
+{
+    transform: translateY(-17px);
+    transition: transform 0.55s ease;
+}
+.grid .Zoe:hover .heart
+{
+    transform: translateY(-17px);
+    transition: transform 0.65s ease;
+}
+
+
+/* SECTION 4 (HERA) */
+.grid .Hera {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+} 
+.grid .Hera figcaption{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+.grid .Hera div
+{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 3em;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 50%;
+}
+.grid .Hera h2
+{
+    margin: 0;
+    font-weight: 300;
+    word-spacing: -0.15em;
+    text-align: center;
+    opacity: 1;
+}
+
+.grid .Hera:hover h2
+{
+
+    opacity: 0;
+    transition:opacity 0.4s;
+}
+
+.Hera img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+.item1{
+    position:absolute;
+    top: 75px;
+    left: 130px;
+    transition: transform 0.35s, opacity 0.35s;
+    opacity: 0;
+}
+.item2{
+    position:absolute;
+    top: 75px;
+    right: 130px;
+    transition: transform 0.35s, opacity 0.35s;
+    opacity: 0;
+}
+.item3{
+    position:absolute;
+    bottom: 75px;
+    left: 130px;
+    transition: transform 0.35s, opacity 0.35s;
+    opacity: 0;
+}
+.item4{
+    position:absolute;
+    bottom: 75px;
+    right: 130px;
+    transition: transform 0.35s, opacity 0.35s;
+    opacity: 0;
+}
+.grid .Hera:hover .item1
+{
+    opacity: 1;
+    transform: translate3d(75px,60px,0px)
+}
+.grid .Hera:hover .item2
+{
+    opacity: 1;
+    transform: translate3d(-75px,60px,0px)
+}
+.grid .Hera:hover .item3
+{
+    opacity: 1;
+    transform: translate3d(75px,-60px,0px)
+}
+.grid .Hera:hover .item4
+{
+    opacity: 1;
+    transform: translate3d(-75px,-60px,0px)
+}
+.grid .Hera #outer
+{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18%;
+    height: 24%;
+    border: 1px solid #fff;
+    opacity: 0;
+    transform: translateY(-4em) translateX(10em) rotate(45deg);
+}
+.grid .Hera:hover #outer
+{
+    opacity: 1;
+     transform: translateX(7.5em) translateY(-1.5em) rotate(45deg); 
+    width: 38%;
+    height: 50%;
+    /* bottom: 4.5em;
+    left: 7.5em; */
+    transition:opacity 0.35s,height 0.35s,width 0.35s, transform 0.35s ease;
+}
+
+/* SECTION 5 (MOUSES) */
+
+.grid .moses {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 48%;
+    text-align: center;
+    cursor: pointer;
+} 
+.grid .moses figcaption{
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+}
+
+.grid .moses h2
+{
+    width: 45%;
+    height: 40%;
+    border: 1px solid #fff;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
+    font-weight: 300;
+    word-spacing: -0.15em;
+    transform: translateY(10px) translateX(10px);
+    transition: transform 0.3s ease;
+}
+.grid .moses p
+{
+    padding: 1em 1em 0em 0em ;
+    text-align: end;
+    margin: 0;
+    border: 1px solid #fff;
+    width: 48.7%;
+    height: 46%;
+    letter-spacing: 1px;
+    font-size: 68.5%;
+    opacity: 0;
+    transform: translateY(-60px) translateX(120px);
+    transition: transform 0.45s ease, opacity 0.45s;
+}
+.grid .moses:hover{
+    background: transparent;
+
+}
+.grid .moses:hover p
+{
+    opacity: 1;
+    transform:translateY(-1px) translateX(196px);
+}
+.grid .moses:hover h2
+{
+    transform:translateY(0px) translateX(0);
+}
+
+.moses img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    position: relative;
+    display: block;
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+    transition: transform 0.3s ease;
+    transform: scale(1.1) translateX(20px);
+}
+
+.grid .moses:hover{
+    background: linear-gradient(-45deg, #EC65B7 0%, #05E0D8 100%);
+
+}

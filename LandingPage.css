@@ -36,6 +36,28 @@
 }
 
 
+.top-slim-nav
+{
+    background-color: #181733;
+    height: 1.8em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1024px) {
     .team-list-section-title{
         margin-bottom: 2.5rem;

@@ -1,5 +1,5 @@
 //Câu 3
-/*
+
 let str= prompt('Nhập string');
 let arr = str.split(''); 
 function input(a)
@@ -20,10 +20,10 @@ function check(a)
     console.log('True');
 }
 check(arr)
-*/
+
 
 //Câu 6
-/*
+
 const arr = prompt('Array: ').split(' ');
 function input(a)
 {
@@ -55,10 +55,10 @@ function check(a)
     console.log(res);  
 }
 check(arr)
-*/
+
 
 //Câu 7
-/*
+
 let str= prompt('Nhập string');
 function input(a)
 {
@@ -77,7 +77,7 @@ function check(a)
     }
     console.log('False');
 }
-check(str)*/
+check(str)
 
 //câu 9
 

@@ -1,0 +1,12 @@
+#container
+{
+    width: 15%;
+    text-align: center;
+}
+#pokemon_name
+{
+    font-weight: 600;
+    text-transform:uppercase ;
+
+}
+

@@ -1,5 +1,6 @@
+//----------------Funtion-------------------
 //Câu 3
-
+/*
 let str= prompt('Nhập string');
 let arr = str.split(''); 
 function input(a)
@@ -113,6 +114,75 @@ function check(a)
     
 }
 check(str)
+
+*/
+/*
+//-----------------Date-----------------------
+// Bai 1
+
+function getDate1()
+{
+    const date = new Date
+    console.log(`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`);
+    console.log(`${date.getDay()}/${date.getMonth() + 1}/${date.getFullYear()}`);
+}
+getDate1()
+
+
+// Bai 2
+
+function getDate2()
+{
+    const date = new Date
+    console.log(`${date.getMonth()+1}/${date.getDay()}/${date.getFullYear()}`);
+    console.log(`${date.getMonth()+1}-${date.getDay()}-${date.getFullYear()}`);
+    console.log(`${date.getDay()}/${date.getMonth() + 1}/${date.getFullYear()}`);
+}
+getDate2()
+
+
+//Bai 8
+let str= prompt('Nhập Tháng');
+let month = Number(str); 
+function getMonth()
+{
+    if(month <=12 && month >0)
+    {
+
+        let arr = ['Một', 'Hai', 'Ba', 'Bốn', 'Năm', 'Sáu', 'Bảy', 'Tám', 'Chín', 'Mười', 'Mười Một', 'Mười Hai']
+        console.log('Tháng',arr[month-1]);
+    }
+    else
+    {
+        console.log('lỗi');
+        
+    }
+}
+getMonth()
+*/
+
+
+const arr = [
+    {src:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png", P_name:"Charmander"},
+    {src:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png", P_name:"Chameleon"},
+    {src:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png", P_name:"Charizard"}  
+]
+const ptr = document.getElementById("img")
+const Name = document.getElementById("pokemon_name")
+let count = 0
+function ChangeImg()
+{
+    count = (count + 1) % arr.length
+    ptr.src = arr[count].src
+    Name.innerText = arr[count].P_name
+}
+
+
+
+
+
+
+
 
 
 

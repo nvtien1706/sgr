@@ -116,6 +116,8 @@ function check(a)
 check(str)
 
 */
+
+
 /*
 //-----------------Date-----------------------
 // Bai 1
@@ -160,6 +162,8 @@ function getMonth()
 }
 getMonth()
 */
+
+
 
 
 const arr = [

@@ -1,3 +1,7 @@
+body
+{
+    margin: 0;
+}
 .main{
     padding: 0 3.6rem;
     background: #fff;
@@ -36,14 +40,249 @@
 }
 
 
+/* Section 1 */
 .top-slim-nav
 {
-    background-color: #181733;
-    height: 1.8em;
+    position: relative;
+    background-color: #0a0925;
+    height: 2.8em;
+    margin: 0;
+}
+.left-top-menu
+{
+    border-radius: 20px;
+    width: 17%;
+    height: 50% ;
+    position: absolute;
+    top: 0.6em;
+    left: 10em;
+    background-image: linear-gradient(90deg, #154284, #181733);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 1000;
+    text-align: center;
+    padding-top: 0.25rem;
+
+}
+.right-top-menu
+{
+    width: 30%;
+    height: 90% ;
+    position: absolute;
+    bottom: 0px;
+    right: 0em;
+}
+.icon-container
+{
+    background-color: #154284;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+    border-radius: 100%;
+    height: 2.2rem;
+    margin-right: 1rem;
+    width: 2.2rem;
+    position: relative;
+    top: 0.05rem;
+    left: 4rem ;
 }
 
+.icon
+{
+    width: 50%;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+}
+.login
+{
+    position: absolute;
+    top:0.6rem;
+    left: 6.5rem;
+    color: #fff;
+    font-weight: 1000;
+
+}
+.view-plan-container
+{
+    width: 30%;
+    height: 85%;
+    position: absolute;
+    top:0.1rem;
+    left: 11rem;
+    border-radius: .3rem;
+    background: linear-gradient(90deg, #8c1a17, #cd122d);
+
+}
+.barca-icon
+{
+    width: 18%;
+    position: absolute;
+    top: 0.2rem;
+    left: 1.5rem;
+
+}
+.view-plan
+{
+    color: #fff;
+    position: absolute;
+    top: 0.7rem;
+    left: 14.5rem;
+    font-weight: 1000;
+    font-size:small;
+
+}
+.En-container
+{
+    display: flex;
+    background-color: hsla(0, 0%, 100%, .12);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .12);
+    border-radius: 100%;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: #154284 1px solid;
+    color: #fff;
+    position: absolute;
+    top: 0.05rem;
+    left: 21.5rem;
+    font-weight: 1000;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.WWW-container
+{
+    background-color: hsla(0, 0%, 100%, .12);
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .12);
+    border-radius: 100%;
+    width: 2.2rem;
+    height: 2.2rem;
+    border: #154284 1px solid;
+    color: #fff;
+    position: absolute;
+    top: 0.05rem;
+    left: 24.5rem;
+    font-weight: 1000;
 
 
+}
+.fullfill-barca-icon
+{
+    width: 60%;
+    position: absolute;
+    bottom: 2.3rem;
+    left: 0.25rem;
+
+}
+.tripleW
+{
+    position: absolute;
+    top: 1.1rem;
+    left: .33rem;
+    font-size: .5rem;
+    font-weight: bold;
+
+
+}
+/* Section 2 */
+.middle-menu
+{
+    position: relative;
+    height: 4em;  
+    background-color: #181731;
+    
+}
+.brc-color-icon
+{
+    position: absolute;
+    width: 5.5%;
+    top: -.5rem;
+    left: 3rem;
+}
+.nav-in-middle
+{
+    display: flex;
+
+}
+.left-nav
+{
+    position: absolute;
+    border: #154284 2px solid;
+    width: 30%;
+    height: 95%;
+    left: 12rem;
+    gap: .5rem;
+    display: flex;
+
+}
+.right-nav
+{
+    position: absolute;
+    border: #cd122d 2px solid;
+
+}
+.first-team
+{
+    display: flex;
+    position: absolute;
+    border: #3f80e2 2px solid;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: fcb-condensed-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1rem;
+    height: 97%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+}
+.club
+{
+    display: flex;
+    position: absolute;
+    border: #3f80e2 2px solid;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: fcb-condensed-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1rem;
+    height: 97%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+
+}
+.espai-barca
+{
+    display: flex;
+    position: absolute;
+    border: #3f80e2 2px solid;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: fcb-condensed-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1rem;
+    height: 97%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+
+}
+.barca-team
+{
+    display: flex;
+    position: absolute;
+    border: #3f80e2 2px solid;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: fcb-condensed-bold, Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1rem;
+    height: 97%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+
+}
 
 
 

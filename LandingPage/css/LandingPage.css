@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'FC BARCELONA';
+    font-family: 'fcb-extra-bold';
     src: url('../LandingPage/font/FCBARCELONA-Extrabold.eot');
     src: url('../LandingPage/font/FCBARCELONA-Extrabold.eot?#iefix') format('embedded-opentype'),
         url('../LandingPage/font/FCBARCELONA-Extrabold.woff2') format('woff2'),
@@ -178,23 +178,6 @@ body
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .main{
     margin: 0 20px 0 20px;
     padding: 0 3.6rem;
@@ -240,6 +223,45 @@ body
     width: 7rem;
 }
 
+
+
+
+.main-nav
+{
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.main-btn-item
+{
+    font-size: .7rem;
+    font-weight: 600;
+    border-radius: .2rem;
+    font-family: "fcb-extra-bold", Arial, Helvetica Neue, Helvetica, sans-serif;
+    word-spacing: normal;
+    text-transform: uppercase;
+    line-height: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: #222;
+    padding: .5rem 1.3rem;
+    background-color: #f8f8f8;
+    box-shadow: 0 .1rem .2rem 0 rgba(0, 0, 0, .15);
+    transition: background-color .2s ease, color .2s ease;
+}
+.main-btn-item:hover
+{
+    background-color:#154284;
+    color: #fff;
+    outline: 0;
+}
+
+
+
+
+
+
+
 .team-list-section
 {
     padding: 3.8rem 0 2.6rem;
@@ -253,6 +275,7 @@ body
     text-transform: uppercase;
     font-weight: 800;
 }
+
 .team-list{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
